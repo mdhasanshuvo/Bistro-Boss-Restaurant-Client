@@ -3,6 +3,7 @@ import Heading from './Heading';
 import featuredImg from "../assets/home/featured.jpg"
 import '../styles/styles.css'
 
+
 const Featured = () => {
     return (
         <div>

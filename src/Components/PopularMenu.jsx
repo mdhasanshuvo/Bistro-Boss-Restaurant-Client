@@ -2,7 +2,7 @@ import React, { useEffect, useState } from 'react';
 import Menuitems from './Menuitems';
 import Heading from './Heading';
 
-const Menu = () => {
+const PopularMenu = () => {
     const [menu, setMenu] = useState([]);
 
     useEffect(() => {
@@ -28,4 +28,4 @@ const Menu = () => {
     );
 };
 
-export default Menu;
+export default PopularMenu;
